@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Центр поддержки предпринимательства</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./app/css/style.css">
 </head>
 
 <body class="body">
@@ -12,9 +12,15 @@
         <div class="container">
             <div class="header__wrap">
                 <div class="header__image">
-                    <img src="" alt="Логотип компании центра поддержки предпринимательства">
+                    <img src="../template/app/img/3-layers.png"
+                        alt="Логотип компании центра поддержки предпринимательства">
                 </div>
-                <a class="header__phone" href="tel:+74872259832">+7 4872 25 98 32 </a>
+                <a class="header__phone" href="tel:+74872259832">
+                    <span class="header__phone-icon">
+                        <img src="" alt="">
+                    </span>
+                    <span>+7 4872 25 98 32</span> 
+                </a>
                 <nav class="header__navigation navigation">
                     <ul class="navigation__list">
                         <li class="navigation__item">
@@ -27,7 +33,7 @@
                             <a href="#" class="navigation__link">Конкурсная документация</a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link">Запрос коммерческих предложений</a>
+                            <a href="#" class="navigation__link">Запрос <br> коммерческих предложений</a>
                         </li>
                         <li class="navigation__item">
                             <a href="#" class="navigation__link">Мероприятия</a>
@@ -42,56 +48,43 @@
                 </nav>
             </div>
         </div>
-    </header>
-    <main class="main">
-        <section class="index-features" style="background-image:url();">
+        <section class="index-features">
             <div class="container index-features__container">
-
                 <div class="index-features__wrap">
                     <h1 class="index-features__title">
-                        Центр инжиниринга <br> Тульского регионального фонда <br>Центр поддержки предпринимательства
+                       <span class="index-features__title-big"> Центр инжиниринга</span> <br> Тульского регионального фонда <br>Центр поддержки предпринимательства
                     </h1>
                     <ul class="index-features__list">
                         <li class="index-features__item">
                             <div class="index-features__icon">
                                 <img src="" alt="">
                             </div>
-                            <div class="index-features__text"></div>
+                            <div class="index-features__text">Доступность востребованных
+                                инжиниринговых услуг для
+                                производственных СМСП</div>
                         </li>
                         <li class="index-features__item">
                             <div class="index-features__icon">
                                 <img src="" alt="">
                             </div>
-                            <div class="index-features__text"></div>
+                            <div class="index-features__text">Рост количества
+                                высоко производительных
+                                рабочих мест Тульского региона</div>
                         </li>
                         <li class="index-features__item">
                             <div class="index-features__icon">
                                 <img src="" alt="">
                             </div>
-                            <div class="index-features__text"></div>
+                            <div class="index-features__text">Увеличение объемов производства продукции</div>
                         </li>
                         <li class="index-features__item">
                             <div class="index-features__icon">
                                 <img src="" alt="">
                             </div>
-                            <div class="index-features__text"></div>
+                            <div class="index-features__text">Внедрние инноваций и передовых технологий
+                                в производственые процессы</div>
                         </li>
                     </ul>
-                    <ul class="navigation__list">
-                        <li class="navigation__item">Доступность востребованных
-                            инжиниринговых услуг для
-                            производственных СМСП
-                        </li>
-                        <li class="navigation__item">Рост количества
-                            высоко производительных
-                            рабочих мест Тульского региона
-                        </li>
-                        <li class="navigation__item">Увеличение объемов производства продукции
-                        </li>
-                        <li class="navigation__item">Внедрние инноваций и передовых технологий
-                            в производственые процессы
-                        </li>
-                    </ul> -->
                     <div class="index-features__buttons">
                         <a href="#" class="index-features__link common-button">Конкурсная документация</a>
                         <a href="#" class="index-features__link common-button common-button_transparent">Коммерческие
@@ -100,6 +93,9 @@
                 </div>
             </div>
         </section>
+    </header>
+    <main class="main">
+
         <section class="services">
             <div class="container">
                 <div class="services__wrap">
@@ -201,61 +197,56 @@
                 </div>
             </div>
         </section>
-        <section class="news">
-            <div class="news__container">
+        <section class="news" style="background-image:url();">
+            <div class="container">
                 <div class="news__wrap">
-                    <div class="news__image">
-                        <img src="" alt="">
-                        <h3 class="custom-title custom-title_white">Новости</h3>
-                        <div class="news__list">
-                            <a href="#" class="news__item">
-                                <span class="news__date">
-                                    23<br>сентября<br>2017
-                                </span>
-                                <span class="news__title">
-                                    Новые купили стили на немецкую компанию за много долларов?
-                                </span>
-                                <span class="news__text">
-                                    Группа китайских инвесторов на их в Германии
-                                    производителя оборудования, компанию.
-                                </span>
-                                <span class="news__links">
-                                    <span class="news__arrow"></span>
-                                    <span class="news__button">Читать</span>
-                                </span>
-                            </a>
-                        </div>
+                    <h3 class="custom-title custom-title_white">Новости</h3>
+                    <div class="news__list">
+                        <a href="#" class="news__item">
+                            <span class="news__date">
+                                23<br>сентября<br>2017
+                            </span>
+                            <span class="news__title">
+                                Новые купили стили на немецкую компанию за много долларов?
+                            </span>
+                            <span class="news__text">
+                                Группа китайских инвесторов на их в Германии
+                                производителя оборудования, компанию.
+                            </span>
+                            <span class="news__links">
+                                <span class="news__arrow"></span>
+                                <span class="news__button">Читать</span>
+                            </span>
+                        </a>
+                        <a href="#" class="news__item">
+                            <span class="news__date">
+                                20<br>сентября<br>2017
+                            </span>
+                            <span class="news__title">Китайцы купили немецкую
+                                компанию за 1 млрд. долларов?
+                            </span>
+                            <span class="news__text">
+                                Группа китайских инвесторов на их в Германии
+                                производителя оборудования, компанию.
+                            </span>
+                            <span class="news__links">
+                                <span class="news__arrow"></span>
+                                <span class="news__button">Читать</span>
+                            </span>
+                        </a>
+                        <a href="#" class="news__item">
+                            <span class="news__date">
+                                18<br>сентября 2017 Новые купили стили
+                                немецкую компанию за много долларов?
+                            </span>
+                            <span class="news__text">Группа китайских инвесторов на их в Германии
+                                производителя оборудования, компанию.
+                            </span>
+                            <span class="news__arrow"></span>
+                            <span class="news__button">Читать</span>
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div class="news__list">
-                <a href="#" class="news__item"></a>
-                <span class="news__date">
-                    20<br>сентября<br>2017
-                </span>
-                <span class="news__title">Китайцы купили немецкую
-                    компанию за 1 млрд. долларов?
-                </span>
-                <span class="news__text">
-                    Группа китайских инвесторов на их в Германии
-                    производителя оборудования, компанию.
-                </span>
-                <span class="news__links">
-                    <span class="news__arrow"></span>
-                    <span class="news__button">Читать</span>
-                </span>
-            </div>
-            <div class="news__list">
-                <a href="#" class="news__item"></a>
-                <span class="news__date">
-                    18<br>сентября 2017 Новые купили стили
-                    немецкую компанию за много долларов?
-                </span>
-                <span class="news__text">Группа китайских инвесторов на их в Германии
-                    производителя оборудования, компанию.
-                </span>
-                <span class="news__arrow"></span>
-                <span class="news__button">Читать</span>
             </div>
             <a href="#" class="common-button common-button_transparent">Смотреть все новости</a>
         </section>
@@ -268,20 +259,24 @@
                             <div class="contacts__plaster-left">
                                 <h4>За подробной информацией о деятельности Центра
                                     Инжиниринга обращаться по телефону:</h4>
-                                <a href="#" class="navigation__link" target="blank">
+                                <a href="#" class="contacts__link" target="blank">
                                     <img src="" alt="Facebook">
                                 </a>
-                                <a href="#" class="navigation__link">Twitter.com
-                                <img src="" alt="Twitter">
+                                <a href="#" class="contacts__link">Twitter.com
+                                    <img src="" alt="Twitter">
                                 </a>
+                                <!-- navigation__link - элемент блока navigation.
+                                    а navigation у нас находится в шапке. 
+                                -->
+                            </div>
+                            <div class="contacts__plaster-right">
+                                <h4>Телефон:</h4>
+                                <a href="tel:+74872259832">+7 4872 25 98 32 </a>
+                                <h4>Адрес:</h4>
+                                <span> Жаворонкова, д. 2 (вход со двора), каб. №1</span>
                             </div>
                         </div>
-                        <div class="contacts__plaster-right">
-                            <h4>Телефон:</h4>
-                            <a href="tel:+74872259832">+7 4872 25 98 32 </a>
-                            <h4>Адрес:</h4>
-                            <span> Жаворонкова, д. 2 (вход со двора), каб. №1</span>
-                        </div>
+
                     </div>
                 </div>
             </div>
